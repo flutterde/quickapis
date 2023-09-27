@@ -1,0 +1,24 @@
+{
+  "name": "easyapijs",
+  "version": "0.0.1",
+  "description": "A quick js framework base on express to create APIs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flutterde/easyapijs"
+  },
+  "keywords": [
+    "js",
+    "express",
+    "APIs"
+  ],
+  "author": "flutterde",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}

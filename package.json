@@ -1,25 +1,25 @@
 {
-  "name": "flutterde-template-cli",
-  "version": "0.1.0",
-  "description": "Project for instantiating projects via cli",
+  "name": "create-quickapis-app",
+  "version": "0.1.1",
+  "description": "Create Js APIs quickly",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "flutterde-template-cli": "./index.js"
+    "create-quickapis-app": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leoroese/template-cli.git"
+    "url": "git+https://github.com/flutterde/quickapis.git"
   },
-  "author": "Leonardo Roese",
+  "author": "flutterde",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leoroese/template-cli/issues"
+    "url": "https://github.com/flutterde/quickapis/issues"
   },
-  "homepage": "https://github.com/leoroese/template-cli#readme",
+  "homepage": "https://github.com/flutterde/quickapis#readme",
   "dependencies": {
     "inquirer": "^8.2.6"
   },

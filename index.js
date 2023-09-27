@@ -7,9 +7,7 @@ import { fileURLToPath } from 'url';
 import createDirectoryContents from './createDirectoryContents.js';
 const CURR_DIR = process.cwd();
 const __dirname = dirname(fileURLToPath(import.meta.url));
-
 const CHOICES = fs.readdirSync(`${__dirname}/templates`);
-
 const QUESTIONS = [
   {
     name: 'project-choice',
@@ -32,8 +30,6 @@ inquirer.prompt(QUESTIONS).then(answers => {
   const projectChoice = answers['project-choice'];
   const projectName = answers['project-name'];
   const templatePath = `${__dirname}/templates/${projectChoice}`;
-
   fs.mkdirSync(`${CURR_DIR}/${projectName}`);
-
   createDirectoryContents(templatePath, projectName);
 });
